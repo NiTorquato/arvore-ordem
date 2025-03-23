@@ -44,7 +44,7 @@ def draw_tree(root, path=[]):
     # Exibe o caminho in-order na tela
     caminho_str = " ".join(map(str, path))
     plt.title("Caminho em ordem")
-    plt.text(0, -1.5, caminho_str, fontsize=12, ha='center', bbox=dict(facecolor='white', edgecolor='black'))
+    plt.text(1.8, -2.8, caminho_str, fontsize=12, ha='center', bbox=dict(facecolor='white', edgecolor='black'))
     plt.show()
 
 
